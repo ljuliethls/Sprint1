@@ -1,0 +1,100 @@
+body{
+    background-color: whitesmoke;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#btn-registrar{
+    width: 100px;
+    height: 30px;
+    background-attachment: fixed;
+    background-color: green;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color: aliceblue;
+ }
+
+#nav-menu{
+    background-color: yellowgreen;
+    width: 200px;
+}
+
+#lista{
+    color: azure;
+}
+
+#form-registro{
+    background-color:linen;
+    border-color: linen;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 0cm;
+}
+
+.cajas{
+    height: 25px;
+    border-radius: 7px;
+}
+
+#titulo-menu{
+    height: 50px;
+    background-color: greenyellow;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#campos{
+    border: 0cm;
+}
+
+#btn-submit-form{
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: greenyellow;
+    font-weight: bold;
+    
+    /*Centra el botón en el formulario*/
+    margin: auto;
+    display: block;
+}
+
+ul{
+    display: none;
+}
+
+input:checked ~ ul{
+    display: block;
+}
+
+#checkmenu{
+    display: none;
+}
+
+.mnu {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+
+  /*li {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }*/
